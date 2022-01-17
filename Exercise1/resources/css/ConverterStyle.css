@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: #1a7d21;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+
+
+
+#menuDiv {
+    font-family: verdana;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px
+}
+
+
+
+/*classes for even and odd giving different colours to text in even and odd cells*/
+.even{
+    color: #ccc5c1;
+}
+.odd{
+    color: #f5f0ec;
+}
+
+table {
+    color: #333;
+    width: 550px;
+    border: 1px solid #1f942b;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: verdana;
+}
+
+th {
+    /*give header background different colour*/
+    background: #1a7d21;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+}
+
+td {
+    background: #02ab10;
+    text-align: center;
+    height: 30px;
+}

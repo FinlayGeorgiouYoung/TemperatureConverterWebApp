@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/ConverterStyle.css"/>
+    <title>Temperature Converter</title>
+    <script language="JavaScript" src="../js/Converter.js" type="text/javascript"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+<h1>Celsius to Fahrenheit Converter</h1>
+
+<div id="menuDiv">
+
+    <p>Choose a conversion type:</p>
+    <form>
+        <select id="conversionType">
+            <option value = "c2f"> Celsius to Fahrenheit </option>
+            <option value = "f2c"> Fahrenheit to Celsius </option>
+        </select>
+    </form>
+
+    <p>Enter a range you want to convert</p>
+    <p>
+        From: <input id = "from" name="from" size=15 type="Text"/>
+        To: <input id = "to" name="to" size=15 type="Text"/>
+        <input type="submit" value="Submit" onclick="conversionTable('tableDiv');return false" />
+    </p>
+</div>
+
+<div id="tableDiv"></div>
+
+</body>
+</html>
